@@ -1,4 +1,8 @@
-for i in 0..50
+mail = []
 
-puts "jean.dupont.#{i}@email.fr"
+for i in 0..50
+a = "jean.dupont.#{i}@email.fr"
+mail.push(a)
+
 end
+puts mail
