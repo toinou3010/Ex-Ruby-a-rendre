@@ -1,20 +1,18 @@
-
+mail = []
 
 for i in 0..50
 
-
+a = i
+        if (a % 2) ==0
 
 f = "jean.dupont.#{i}@email.fr"
 
-a = i
+mail.push(f)
 
-
-
-
-if (a % 2) ==0
-
-puts f
+        end
 
 end
 
-end
+
+puts mail
+
