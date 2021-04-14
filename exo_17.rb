@@ -10,7 +10,7 @@ g = number.to_i - 1
 if number <=0
 puts "le programme n'a pas pu être exécuté"
 
-elsif number >= 25
+elsif number > 25
 
 puts "le programme n'a pas pu être exécuté"
 else
