@@ -5,7 +5,6 @@ print ">"
 number = gets.chomp
 
 c = number.to_i
-
 g = number.to_i - 1
 
 for i in 0..g
@@ -15,12 +14,13 @@ negat = -1
 
 print space * c
 d = i + i
-e = d.to_i - negat 
+e = d.to_i - negat
+
+c -=1
 
 
- 
-c -= 1
 
 puts ht * e
 
 end
+
