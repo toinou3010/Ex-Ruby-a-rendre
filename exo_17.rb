@@ -2,11 +2,18 @@ puts "Salut, bienvenue dans ma super pyramide ! choix un nombre d'étages entre 
 
 print ">"
 
-number = gets.chomp
+number = gets.to_i
 
 c = number.to_i
 g = number.to_i - 1
 
+if number <=0
+puts "le programme n'a pas pu être exécuté"
+
+elsif number >= 25
+
+puts "le programme n'a pas pu être exécuté"
+else
 for i in 0..g
 space = " "
 ht = "#"
@@ -24,3 +31,4 @@ puts ht * e
 
 end
 
+end
